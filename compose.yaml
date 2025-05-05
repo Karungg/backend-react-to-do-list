@@ -1,6 +1,12 @@
 services:
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8081:8080
   postgres:
     image: "postgres:latest"
+    restart: always
     environment:
       - "POSTGRES_DB=todolist"
       - "POSTGRES_PASSWORD=#Karung123"
