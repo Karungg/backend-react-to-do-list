@@ -9,7 +9,7 @@ services:
     restart: always
     environment:
       - "POSTGRES_DB=todolist"
-      - "POSTGRES_PASSWORD=#Karung123"
+      - "POSTGRES_PASSWORD=karung123"
       - "POSTGRES_USER=karung"
     ports:
       - "5432"
