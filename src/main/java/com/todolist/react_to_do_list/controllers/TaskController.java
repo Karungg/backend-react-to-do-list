@@ -1,6 +1,5 @@
 package com.todolist.react_to_do_list.controllers;
 
-import java.net.http.HttpResponse.ResponseInfo;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
